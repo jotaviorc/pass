@@ -1,0 +1,11 @@
+REMOVE
+
+siteName,nodeName,intfName
+ABC,ABCCBA001,eth1/1
+ABC,ABCCBA001,eth1/2
+
+
+ADD
+schema,siteName,templateName,applicationProfileName,epgName,podName,nodeName,intfName,intfType,vlan,microVlan,deploymentImmediacy,mode
+DEVNET,ABC,ABC,UntitledAP1,VL3333-ep,pod-1,protpaths-301-302,VPC-1,vpc,3333,,immediate,regular
+DEVNET,ABC,ABC,UntitledAP1,VL3333-ep,pod-1,protpaths-301-302,VPC-2,vpc,3333,,immediate,regular
